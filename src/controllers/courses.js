@@ -51,5 +51,9 @@ async function createCourse(req, res) {
 }
 
 module.exports = {
-  getAllCourses, getCourseById, updateCourseById, deleteCourseById, createCourse
+  getAllCourses, 
+  getCourseById, 
+  updateCourseById, 
+  deleteCourseById, 
+  createCourse
 }

@@ -1,4 +1,3 @@
-
 function getAllStudents(req, res) {
   res.json([]);
 }
@@ -9,5 +8,9 @@ function deleteStudentById(req, res) {}
 function createStudent(req, res) {}
 
 module.exports = {
-  getAllStudents, getStudentById, updateStudentById, deleteStudentById, createStudent
+  getAllStudents, 
+  getStudentById, 
+  updateStudentById, 
+  deleteStudentById, 
+  createStudent
 }
